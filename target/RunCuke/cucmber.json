@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10513043500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": ": User should not register with invalid credentials",
+        "description": "",
+        "id": "register-test;:-user-should-not-register-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1079335700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 417872800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "LoginStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1857983600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151250900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select any one radio button on gender label",
+            "match": {
+              "location": "RegisterStepdefs.iSelectAnyOneRadioButtonOnGenderLabel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196982400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter firstname \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterStepdefs.iEnterFirstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222821600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter lastname \"carlton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "carlton",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterStepdefs.iEnterLastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243510100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter email in emailfield \"rak@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rak@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterStepdefs.iEnterEmailInEmailfield(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227919000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter password in passwordfield \"uiu5251\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "uiu5251",
+                  "offset": 35
+                }
+              ],
+              "location": "RegisterStepdefs.iEnterPasswordInPasswordfield(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1015583600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter confirmpassword \"uiu5251\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "uiu5251",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterStepdefs.iEnterConfirmpassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178299700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88261900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Error Message should be displayed \"First name is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name is required.",
+                  "offset": 35
+                }
+              ],
+              "location": "RegisterStepdefs.errorMessageShouldBeDisplayed(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Register Test",
+    "description": "As a User I want to register into Nopcommerce Website",
+    "id": "register-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefiles/register.feature"
+  }
+]
